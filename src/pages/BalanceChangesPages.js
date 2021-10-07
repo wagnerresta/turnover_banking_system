@@ -82,16 +82,7 @@ const  BalanceChangesPages = () => {
                     {renderExpenses()}
                 </ListItemsWrapper>
             </List>
-            <Fab onClick={() => history.push("/purchases/create")} style={{
-                margin: 0,
-                top: 'auto',
-                right: 20,
-                bottom: 20,
-                left: 'auto',
-                position: 'absolute',
-            }} color="success" aria-label="add">
-                <AddIcon/>
-            </Fab>
+           
         </PageWrapper>
     )
 };
