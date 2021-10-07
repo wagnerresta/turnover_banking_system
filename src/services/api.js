@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const api = axios.create({
-    baseURL: 'http://turnoverbnb-api.gwdesenvolvimento.com.br/api/',
+    baseURL: 'https://turnoverbnb-api.gwdesenvolvimento.com.br/api/',
     timeout: 20000,
     headers: {'Accept': 'application/json'}
 });
